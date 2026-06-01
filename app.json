@@ -58,7 +58,6 @@
           "locationWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location"
         }
       ],
-      "@sentry/react-native"
     ],
     "experiments": {
       "typedRoutes": true,
