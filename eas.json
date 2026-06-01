@@ -10,8 +10,11 @@
     },
     "preview": {
       "distribution": "internal",
-       "android": {
+      "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "SENTRY_AUTH_TOKEN": "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"
       }
     },
     "production": {
