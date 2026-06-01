@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "wolt",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.supersimon.wolt"
@@ -58,7 +57,8 @@
         {
           "locationWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location"
         }
-      ]
+      ],
+      "@sentry/react-native"
     ],
     "experiments": {
       "typedRoutes": true,
